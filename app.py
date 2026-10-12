@@ -1,6 +1,5 @@
 from datetime import datetime, timedelta
 import pandas as pd
-from pykrx import stock  # pykrx 추가
 import plotly.graph_objects as go
 import streamlit as st
 import yfinance as yf
