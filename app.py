@@ -652,7 +652,7 @@ with tab_market:
 with tab_stock:
     query = st.text_input(
         "종목명 또는 종목코드를 입력하세요",
-        placeholder="예: 삼성전자, SK하이닉스, 에코프로, 005930",
+        placeholder="예: 삼성전자, SK하이닉스, 에코프로,  293490.KQ",
     )
     st.caption(
         "대표 종목은 이름으로, 그 외 종목은 6자리 종목코드로 검색하면 가장 정확합니다."
